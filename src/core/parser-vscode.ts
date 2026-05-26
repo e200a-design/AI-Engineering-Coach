@@ -28,7 +28,7 @@ export function findVsCodeDirs(): string[] {
   const dirs: string[] = [];
   const home = process.env.HOME || process.env.USERPROFILE || '';
 
-  const editionFolders = ['Code', 'Code - Insiders'];
+  const editionFolders = ['Code', 'Code - Insiders', 'Antigravity', 'Antigravity IDE', 'antigravity-ide'];
 
   for (const edition of editionFolders) {
     let vsPath: string | undefined;
